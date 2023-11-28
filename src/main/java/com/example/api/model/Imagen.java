@@ -2,7 +2,9 @@ package com.example.api.model;
 
 
 import jakarta.persistence.*;
+import org.springframework.stereotype.Component;
 
+@Component
 @Entity
 @Table(name="imagen")
 public class Imagen {

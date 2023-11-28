@@ -9,7 +9,9 @@ import java.util.Set;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
+import org.springframework.stereotype.Component;
 
+@Component
 @Entity
 @Table(name="unidad")
 public class Unidad {

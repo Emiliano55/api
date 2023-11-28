@@ -7,7 +7,9 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
+import org.springframework.stereotype.Component;
 
+@Component
 @Entity
 @Table(name="reclamo")
 public class Reclamo{

@@ -4,7 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import org.springframework.stereotype.Component;
 
+@Component
 @Entity
 @Table(name="inquilino")
 public class Inquilino {
